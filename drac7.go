@@ -73,7 +73,7 @@ const viewer7 string = `
   </resources>
   <resources os="Mac OS X" arch="x86_64">
     <nativelib href="https://{{ .Host }}:443/software/avctKVMIOMac64.jar" download="eager"/>
-   <nativelib href="https://{{ .Host }}:443/software/avctVMAPI_DLLMac64.jar" download="eager"/>
+   <nativelib href="https://{{ .Host }}:443/software/avctVMMac64.jar" download="eager"/>
   </resources>
 </jnlp>
 `
